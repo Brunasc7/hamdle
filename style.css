@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+
+    margin: 40px;
+}
+
+header {
+     margin: 40px;
+}
+
+main {
+    margin: 40px;
+    display: flex;
+}
+
+.section-text {
+    margin: 40px;
+    
+}
+
+.section-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+
+    width: 550px;
+}
+
+.section-text p {
+    width: 600px;
+    font-size: 18px;
+}
+
+button {
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    border-radius: 30px;
+
+    margin-top: 30px;
+}
+
+footer {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    text-align: center;
+}
+  
+.icon {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%; /* para criar um círculo perfeito */
+    margin: 5px; /* ou qualquer valor desejado para espaçamento entre os elementos */
+    background-color: transparent; /* tornando o background transparente */
+    border: 1px solid #ffffff; /* adicionar uma borda branca */
+    padding: 10px;
+    
+}    
